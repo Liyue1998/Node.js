@@ -2,7 +2,7 @@
 
 const cp=require('child_process');
 
-cp.execFile('./02-child.js',(err,out)=>{
+cp.execFile('node',['./02-child.js'],(err,out)=>{
   if(err){
     console.error(err.message);
     process.exit(100);
