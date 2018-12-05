@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Liyue1998/Node.js/issues"
   },
-  "homepage": "https://github.com/Liyue1998/Node.js#readme"
+  "homepage": "https://github.com/Liyue1998/Node.js#readme",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
 }

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %>Todo List</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %>Todo List</h1>
+    <form action="/" method="post">
+      <input type="text" name="item">
+      <input type="submit" value="submit">
+    </form>
+    <ul><%- items.map(function(item){return '<li>' +item + '</li>'}).join('\n') %></ul>
+    <p>Welcome to <%= title %></p>
+  </body>
+</html>
